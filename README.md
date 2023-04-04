@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=09F70BAE&center=true&multiline=true&width=800&height=80&lines=Team+Project+of+Group+20;-----+SIMPLY+CHOCOLATE+TEMPLATE+----)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=01BB1BAE&center=true&multiline=true&width=800&height=80&lines=Team+Project+of+Group+20;-----+SIMPLY+CHOCOLATE+TEMPLATE+----)](https://git.io/typing-svg)
 
 ---
 
