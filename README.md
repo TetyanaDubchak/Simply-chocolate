@@ -27,24 +27,56 @@
     <img src="./src/img/readme/screenshot.png" />
 </a>
 
-There are many great README templates available on GitHub; however, I didn't
-find one that really suited my needs so I created this enhanced one. I want to
-create a README template so amazing that it'll be the last one you ever need --
-I think this is it.
+<br />
+We would like to present to you some Online Store Project
 
 Here's why:
 
-- Your time should be focused on creating something amazing. A project that
-  solves a problem and helps others
-- You shouldn't be doing the same tasks over and over like creating a README
-  from scratch
-- You should implement DRY principles to the rest of your life :smile:
+- Implemented different technologies during development.
+- Any member can view available products and but it without registration.
+- Available adaptive web design, such as mobile, tablet and desktop.
 
-Of course, no one template will serve all projects since your needs may be
-different. So I'll be adding more in the near future. You may also suggest
-changes by forking this repo and creating a pull request or opening an issue.
-Thanks to all the people have contributed to expanding this template!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Use the `BLANK_README.md` to get started.
+---
+
+### Built With
+
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+<!-- PARTICIPANTS -->
+
+## Participants
+
+- Nina Mateychuk
+- Stanislav Bobrivskyi
+- Yuriy Beregovoy
+- Костя Зінченко
+- Тетяна Дубчак
+
+---
+
+<!-- ACKNOWLEDGMENTS -->
+
+## Acknowledgments
+
+- [Vite](https://vitejs.dev/guide/)
+- [Code Validator](https://validator.w3.org/nu/#textarea)
+- [Caninclude](https://caninclude.glitch.me/)
+- [IconMoon](https://icomoon.io/app/#/select)
+- [CanIuse](https://caniuse.com/)
+- [GitHub Pages](https://pages.github.com)
+- [Google fonts](https://fontawesome.com)
+- [Squoosh](https://squoosh.app/)
+- [SVGOMG](https://jakearchibald.github.io/svgomg/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
