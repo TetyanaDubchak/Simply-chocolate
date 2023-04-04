@@ -23,7 +23,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][./src/img/readme/screenshot.png]](https://maksymbora.github.io/group-20-project/)
+[![Product Name Screen Shot][]](https://maksymbora.github.io/group-20-project/)
 
 There are many great README templates available on GitHub; however, I didn't
 find one that really suited my needs so I created this enhanced one. I want to
