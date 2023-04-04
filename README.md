@@ -75,6 +75,7 @@ Here's why:
 - [IconMoon](https://icomoon.io/app/#/select)
 - [CanIuse](https://caniuse.com/)
 - [GitHub Pages](https://pages.github.com)
+- [Modern-normalize](https://github.com/sindresorhus/modern-normalize)
 - [Google fonts](https://fontawesome.com)
 - [Squoosh](https://squoosh.app/)
 - [SVGOMG](https://jakearchibald.github.io/svgomg/)
