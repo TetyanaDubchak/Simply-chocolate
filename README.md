@@ -24,7 +24,7 @@
 ## About The Project
 
 <a href="https://maksymbora.github.io/group-20-project/">
-    <img src="./src/img/readme/screenshot.png" />
+    <img src="./assets/screenshot.png" />
 </a>
 
 <br />
