@@ -1,1 +1,18 @@
 /*  Footer  */
+
+.footer {
+    background-color: #1E1823;
+}
+
+.footer-logo {
+    color: #FD9222;
+}
+
+.footer-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+
+}
+
