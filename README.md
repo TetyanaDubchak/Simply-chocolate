@@ -33,7 +33,7 @@ We would like to present to you some Online Store Project
 Here's why:
 
 - Implemented different technologies during development.
-- Any member can view available products and but it without registration.
+- Any member can view available products and buy it without registration.
 - Available adaptive web design, such as mobile, tablet and desktop.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
