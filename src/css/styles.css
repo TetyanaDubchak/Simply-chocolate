@@ -36,6 +36,7 @@
   font-size: 14px;
   line-height: calc(18 / 14);
   font-weight: 400;
+  letter-spacing: -0.02em;
 
   color: var(--primary-color);
   background-color: var(--white-color);
