@@ -85,6 +85,7 @@ body {
 }
 
 :root {
+  --body-bg-color: #fafafa;
   --primary-color: #111111;
   --secondary-color: #1e1823;
   --main-accent-color: #fd9222;
@@ -98,7 +99,7 @@ body {
   letter-spacing: -0.02em;
 
   color: var(--primary-color);
-  background-color: var(--white-color);
+  background-color: var(--body-bg-color);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -144,4 +145,21 @@ body {
   .container {
     width: 1166px;
   }
+}
+
+.btn {
+  padding: 12px 28px;
+  border-radius: 100px;
+  border: 1px solid var(--white-color);
+
+  font-weight: 600;
+  line-height: calc(17 / 14);
+  color: var(--white-color);
+  background-color: transparent;
+}
+
+.btn:hover,
+.btn:focus {
+  border: none;
+  background-color: var(--main-accent-color);
 }
