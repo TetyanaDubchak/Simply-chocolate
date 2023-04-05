@@ -82,5 +82,6 @@ Here's why:
 - [Google fonts](https://fontawesome.com)
 - [Squoosh](https://squoosh.app/)
 - [SVGOMG](https://jakearchibald.github.io/svgomg/)
+- [Swiper](https://swiperjs.com/get-started)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
