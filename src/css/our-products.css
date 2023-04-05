@@ -20,9 +20,11 @@
 
 .our-products-list {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.our-products-item {
+.our-products-list-item {
     width: 335px;
     height: 364px;
     background: var(--white-color);
@@ -53,7 +55,7 @@
     margin-bottom: 18px;
 }
 
-.our-products-price-btn {
+.our-products-item-price-btn {
     /* display: flex; */
     padding: 8px 20px;
     font-weight: 600;
