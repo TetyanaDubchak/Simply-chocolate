@@ -57,11 +57,14 @@ Here's why:
 
 ## Participants
 
+- Maksym Borovichenko
 - Nina Mateychuk
 - Stanislav Bobrivskyi
 - Yuriy Beregovoy
 - Костя Зінченко
 - Тетяна Дубчак
+- Анастасія Довгопола
+- Іван Рудка
 
 ---
 
