@@ -22,6 +22,8 @@
 @import url('./leave-review.css');
 @import url('./explore-new.css');
 
+@import url('./overlay.css');
+
 :root {
   --primary-color: #111111;
   --secondary-color: #1e1823;
