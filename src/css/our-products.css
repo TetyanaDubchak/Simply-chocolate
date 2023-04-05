@@ -1,6 +1,8 @@
 /* Our Products Section */
 
-.our-products-container {}
+.our-products-container {
+    padding: 72px 0;
+}
 
 .our-products-title {
     font-weight: 600;
@@ -71,7 +73,7 @@
 @media screen and (min-width: 375px) {
     .our-products-container {}
 
-    .our-products-title {
+    /* .our-products-title {
         font-weight: 600;
         font-size: 24px;
         line-height: 1.17;
@@ -85,13 +87,13 @@
     .our-products-title-color {
         color: var(--main-accent-color);
 
-    }
+    } */
 
     .our-products-list {}
 
     .our-products-item {}
 
-    .our-products-item-title {
+    /* .our-products-item-title {
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 600;
@@ -100,7 +102,7 @@
         letter-spacing: -0.02em;
         text-transform: uppercase;
         color: var(--primary-color);
-    }
+    } */
 
     .our-products-item-description {}
 
@@ -108,77 +110,52 @@
 }
 
 @media screen and (min-width: 768px) {
-    .our-products-container {}
+    .our-products-container {
+        padding: 100px 0;
+    }
 
     .our-products-title {
-        font-weight: 600;
         font-size: 24px;
         line-height: 1.17;
-        text-align: center;
-        letter-spacing: -0.03em;
-        text-transform: uppercase;
-        color: var(--primary-color);
+        margin-bottom: 50px;
+
 
     }
 
-    .our-products-title-color {
-        color: var(--main-accent-color);
+    .our-products-title-color {}
 
+    .our-products-list {
+        column-gap: 18px;
+        margin-bottom: 32px;
     }
 
-    .our-products-list {}
-
-    .our-products-item {}
-
-    .our-products-item-title {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 1.33;
-        letter-spacing: -0.02em;
-        text-transform: uppercase;
-        color: var(--primary-color);
+    .our-products-list-item {
+        width: 270px;
+        height: 364px;
+        padding: 32px 20px;
     }
+
+    .our-products-item-title {}
 
     .our-products-item-description {}
 
-    .our-products-item-price {}
+    .our-products-item-price-btn {}
 }
 
 @media screen and (min-width: 1200px) {
-    .our-products-container {}
-
-    .our-products-title {
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 1.17;
-        text-align: center;
-        letter-spacing: -0.03em;
-        text-transform: uppercase;
-        color: var(--primary-color);
-
+    .our-products-container {
+        padding: 128px 0;
     }
 
-    .our-products-title-color {
-        color: var(--main-accent-color);
+    .our-products-title {}
 
-    }
+    .our-products-title-color {}
 
     .our-products-list {}
 
-    .our-products-item {}
+    .our-products-list-item {}
 
-    .our-products-item-title {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 1.33;
-        letter-spacing: -0.02em;
-        text-transform: uppercase;
-        color: var(--primary-color);
-    }
+    .our-products-item-title {}
 
     .our-products-item-description {}
 
