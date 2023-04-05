@@ -26,6 +26,7 @@
   --primary-color: #111111;
   --secondary-color: #1e1823;
   --main-accent-color: #fd9222;
+  --white-color: #ffffff;
 }
 
 :root {
@@ -35,7 +36,7 @@
   font-weight: 400;
 
   color: var(--primary-color);
-  background-color: rgba(255, 255, 255, 0.87);
+  background-color: var(--white-color);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
