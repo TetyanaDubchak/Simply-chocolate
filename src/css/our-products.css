@@ -22,6 +22,7 @@
 
 .our-products-list {
     display: flex;
+    /* Я приберу wrap коли буду робити свайпер */
     flex-wrap: wrap;
     gap: 20px;
 }
