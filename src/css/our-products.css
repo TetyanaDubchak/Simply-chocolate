@@ -22,8 +22,6 @@
 
 .our-products-list {
     display: flex;
-    /* Я приберу wrap коли буду робити свайпер */
-    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -68,6 +66,7 @@
     background: #FAFAFA;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 100px;
+    transition: background-color 250ms linear, color 250ms linear;
 }
 
 .our-products-item-price-btn:is(:hover, :focus) {
@@ -75,20 +74,41 @@
     color: var(--white-color);
 }
 
+/* no swiper */
+.our-products-swiper-list {
+    display: flex;
+    gap: 13px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.our-products-swiper-long {
+    width: 28px;
+    height: 13px;
+    background: var(--main-accent-color);
+    border-radius: 6px;
+}
+
+.our-products-swiper-short {
+    width: 13px;
+    height: 13px;
+    background: rgba(17, 17, 17, 0.1);
+    border-radius: 50%;
+}
+
+/* /no swiper */
+
+
+
+
 @media screen and (min-width: 375px) {
-    .our-products-container {}
 
+    /* no swiper */
+    .our-products-list-item:nth-child(n+2) {
+        display: none;
+    }
 
-
-    .our-products-list {}
-
-    .our-products-item {}
-
-
-
-    .our-products-item-description {}
-
-    .our-products-item-price {}
+    /* /no swiper */
 }
 
 @media screen and (min-width: 768px) {
@@ -117,6 +137,22 @@
         padding: 32px 20px;
     }
 
+    /* no swiper */
+    .our-products-list-item:nth-child(n+2) {
+        display: flex;
+    }
+
+    .our-products-list-item:nth-child(n+4) {
+        display: none;
+    }
+
+    .our-products-swiper-list {
+        margin-top: 32px;
+
+    }
+
+    /* /no swiper */
+
     .our-products-item-title {}
 
     .our-products-item-description {}
@@ -129,17 +165,15 @@
         padding: 128px 0;
     }
 
-    .our-products-title {}
+    /* no swiper */
+    .our-products-list-item:nth-child(n+4) {
+        display: flex;
+    }
 
-    .our-products-title-color {}
+    .our-products-list-item:nth-child(n+5) {
+        display: none;
+    }
 
-    .our-products-list {}
+    /* /no swiper */
 
-    .our-products-list-item {}
-
-    .our-products-item-title {}
-
-    .our-products-item-description {}
-
-    .our-products-item-price {}
 }
