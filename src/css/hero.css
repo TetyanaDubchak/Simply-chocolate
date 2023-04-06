@@ -7,7 +7,7 @@
 
 .container-hero {
   padding-top: 395px;
-  padding-bottom: 80px;
+  padding-bottom: 27px;
   background-image: url('/img/mobile/hero1x.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -45,6 +45,48 @@
   color: var(--white-color);
 }
 
-.btn-hero-buy {
-  margin-right: 14px;
+.hero-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 32px;
+}
+
+.btn-buy {
+  width: 100%;
+}
+
+.btn-info {
+  min-width: 159px;
+  width: 100%;
+}
+
+.hero-list {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.hero-item-scroll-desc {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  letter-spacing: -0.03em;
+  color: var(--white-color);
+}
+
+.hero-scroll-down-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  background-color: var(--white-color);
+}
+
+.hero-scroll-down-icon {
+  fill: var(--main-accent-color);
 }
