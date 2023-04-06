@@ -2,6 +2,7 @@
 
 .our-products-container {
     padding: 72px 0;
+
 }
 
 .our-products-title {
@@ -22,7 +23,6 @@
 
 .our-products-list {
     display: flex;
-    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -67,7 +67,7 @@
     background: #FAFAFA;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 100px;
-    transition: background-color 250ms linear, color 250ms linear;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-products-item-price-btn:is(:hover, :focus) {
@@ -76,42 +76,38 @@
 
 }
 
-/* no swiper */
-/* .our-products-swiper-list {
-    display: flex;
-    gap: 13px;
-    margin-top: 20px;
-    justify-content: center;
+
+
+.swiper-slide {
+    max-width: 335px;
+    margin-bottom: 27px;
 }
 
-.our-products-swiper-long {
+.swiper-wrapper {
+    text-align: center;
+}
+
+.swiper-pagination {
+    position: relative;
+}
+
+.swiper-pagination-bullet {
+    width: 13px;
+    height: 13px;
+    background: rgba(17, 17, 17, 0.1);
+    gap: 13px;
+}
+
+.swiper-pagination-bullet-active {
     width: 28px;
     height: 13px;
     background: var(--main-accent-color);
     border-radius: 6px;
+
 }
 
-.our-products-swiper-short {
-    width: 13px;
-    height: 13px;
-    background: rgba(17, 17, 17, 0.1);
-    border-radius: 50%;
-} */
 
-/* /no swiper */
-
-
-
-
-@media screen and (min-width: 375px) {
-
-    /* no swiper */
-    /* .our-products-list-item:nth-child(n+2) {
-        display: none;
-    } */
-
-    /* /no swiper */
-}
+@media screen and (min-width: 375px) {}
 
 @media screen and (min-width: 768px) {
     .our-products-container {
@@ -130,30 +126,20 @@
 
     .our-products-list {
         column-gap: 18px;
-        margin-bottom: 32px;
+
     }
 
     .our-products-list-item {
-        width: 270px;
         height: 364px;
         padding: 32px 20px;
     }
 
-    /* no swiper */
-    /* .our-products-list-item:nth-child(n+2) {
-        display: flex;
+    .swiper-slide {
+        max-width: 270px;
+        margin-bottom: 39px;
     }
 
-    .our-products-list-item:nth-child(n+4) {
-        display: none;
-    }
 
-    .our-products-swiper-list {
-        margin-top: 32px;
-
-    } */
-
-    /* /no swiper */
 
     .our-products-item-title {}
 
@@ -167,15 +153,6 @@
         padding: 128px 0;
     }
 
-    /* no swiper */
-    /* .our-products-list-item:nth-child(n+4) {
-        display: flex;
-    }
 
-    .our-products-list-item:nth-child(n+5) {
-        display: none;
-    } */
-
-    /* /no swiper */
 
 }
