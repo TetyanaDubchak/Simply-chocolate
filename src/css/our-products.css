@@ -58,51 +58,32 @@
 }
 
 .our-products-item-price-btn {
-    /* display: flex; */
+
     padding: 8px 20px;
     font-weight: 600;
     font-size: 14px;
     line-height: 1.21;
     color: var(--primary-color);
-    /* height: 33px; */
     background: #FAFAFA;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 100px;
 }
 
+.our-products-item-price-btn:is(:hover, :focus) {
+    background-color: var(--main-accent-color);
+    color: var(--white-color);
+}
+
 @media screen and (min-width: 375px) {
     .our-products-container {}
 
-    /* .our-products-title {
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 1.17;
-        text-align: center;
-        letter-spacing: -0.03em;
-        text-transform: uppercase;
-        color: var(--primary-color);
 
-    }
-
-    .our-products-title-color {
-        color: var(--main-accent-color);
-
-    } */
 
     .our-products-list {}
 
     .our-products-item {}
 
-    /* .our-products-item-title {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 1.33;
-        letter-spacing: -0.02em;
-        text-transform: uppercase;
-        color: var(--primary-color);
-    } */
+
 
     .our-products-item-description {}
 
