@@ -1,1 +1,50 @@
 /* Hero Section */
+
+.hero {
+  padding-bottom: 72px;
+  outline: 1px solid red;
+}
+
+.container-hero {
+  padding-top: 395px;
+  padding-bottom: 80px;
+  background-image: url('/img/mobile/hero1x.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+
+  border-radius: 30px;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .container-hero {
+    background-image: url('/img/mobile/hero2x.jpg');
+  }
+}
+
+@media (min-device-pixel-ratio: 3),
+  (-webkit-min-device-pixel-ratio: 3),
+  (min-resolution: 288dpi),
+  (min-resolution: 3dppx) {
+  .container-hero {
+    background-image: url('/img/mobile/hero3x.jpg');
+  }
+}
+
+.hero-title {
+  margin-bottom: 32px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: -0.03em;
+  color: var(--white-color);
+}
+
+.btn-hero-buy {
+  margin-right: 14px;
+}
