@@ -48,18 +48,18 @@
 .hero-btn-wrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   gap: 14px;
   margin-bottom: 32px;
 }
 
 .btn-buy {
   width: 100%;
+  max-width: 120px;
 }
 
 .btn-info {
   min-width: 159px;
-  width: 100%;
 }
 
 .hero-list {
@@ -89,4 +89,14 @@
 
 .hero-scroll-down-icon {
   fill: var(--main-accent-color);
+}
+
+/* MEDIA Mobile */
+
+@media screen and (min-width: 375px) {
+  .btn-buy {
+  }
+
+  .btn-info {
+  }
 }
