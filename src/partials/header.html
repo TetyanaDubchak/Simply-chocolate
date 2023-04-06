@@ -12,23 +12,25 @@
       </a>
       <ul class="header-menu">
         <li class="header-menu-item">
-          <a class="header-menu-link" href="#">Home</a>
+          <a class="header-menu-link" href="#home">Home</a>
         </li>
         <li class="header-menu-item">
-          <a class="header-menu-link" href="#">How it’s made?</a>
+          <a class="header-menu-link" href="#how-its-made">How it’s made?</a>
         </li>
         <li class="header-menu-item">
-          <a class="header-menu-link" href="#">Our products</a>
+          <a class="header-menu-link" href="#our-products">Our products</a>
         </li>
         <li class="header-menu-item">
-          <a class="header-menu-link" href="#">Top sellers</a>
+          <a class="header-menu-link" href="#top-sellers">Top sellers</a>
         </li>
         <li class="header-menu-item">
-          <a class="header-menu-link" href="#">Chocolate is loved</a>
+          <a class="header-menu-link" href="#chocolate-is-loved"
+            >Chocolate is loved</a
+          >
         </li>
       </ul>
     </nav>
-    <button class="header-burger" type="button">
+    <button class="header-burger js-open-menu" type="button">
       <svg class="header-burger-icon-little" width="28" height="28">
         <use href="../img/sprite.svg#icon-mob-burger"></use>
       </svg>
@@ -38,14 +40,14 @@
     </button>
     <ul class="header-social-list">
       <li class="header-social-item">
-        <a class="header-social-link" href="#"
+        <a class="header-social-link" href="#" target="_blank"
           ><svg class="header-social-icon" width="24" height="24">
             <use href="../img/sprite.svg#icon-instagram"></use>
           </svg>
         </a>
       </li>
       <li class="header-social-item">
-        <a class="header-social-link" href="#">
+        <a class="header-social-link" href="#" target="_blank">
           <svg class="header-social-icon" width="24" height="24">
             <use href="../img/sprite.svg#icon-twitter"></use>
           </svg>
@@ -53,39 +55,45 @@
       </li>
     </ul>
     <!---------MOBILE MENU------------>
-    <div class="header-mobile-wrap">
-      <button type="button" class="header-close-btn">
+    <div class="header-mobile-wrap js-menu-container">
+      <button type="button" class="header-close-btn js-close-menu">
         <svg class="header-close-icon" width="28" height="28">
           <use href="../img/sprite.svg#icon-close-28"></use>
         </svg>
       </button>
       <ul class="header-mobile-menu">
         <li class="header-mobile-menu-item">
-          <a class="header-mobile-menu-link" href="#">Home</a>
+          <a class="header-mobile-menu-link current" href="#home">Home</a>
         </li>
         <li class="header-mobile-menu-item">
-          <a class="header-mobile-menu-link" href="#">How it’s made?</a>
+          <a class="header-mobile-menu-link" href="#how-its-made"
+            >How it’s made?</a
+          >
         </li>
         <li class="header-mobile-menu-item">
-          <a class="header-mobile-menu-link" href="#">Our products</a>
+          <a class="header-mobile-menu-link" href="#our-products"
+            >Our products</a
+          >
         </li>
         <li class="header-mobile-menu-item">
-          <a class="header-mobile-menu-link" href="#">Top sellers</a>
+          <a class="header-mobile-menu-link" href="#top-sellers">Top sellers</a>
         </li>
         <li class="header-mobile-menu-item">
-          <a class="header-mobile-menu-link" href="#">Chocolate is loved</a>
+          <a class="header-mobile-menu-link" href="#chocolate-is-loved"
+            >Chocolate is loved</a
+          >
         </li>
       </ul>
       <ul class="header-mobile-social-list">
         <li class="header-mobile-social-item">
-          <a class="header-mobile-social-link" href="#"
+          <a class="header-mobile-social-link" href="#" target="_blank"
             ><svg class="header-mobile-social-icon" width="22" height="22">
               <use href="../img/sprite.svg#icon-instagram"></use>
             </svg>
           </a>
         </li>
         <li class="header-mobile-social-item">
-          <a class="header-mobile-social-link" href="#">
+          <a class="header-mobile-social-link" href="#" target="_blank">
             <svg class="header-mobile-social-icon" width="20" height="20">
               <use href="../img/sprite.svg#icon-twitter"></use>
             </svg>
@@ -95,3 +103,13 @@
     </div>
   </div>
 </header>
+
+<script src="../js/mobile-menu.js"></script>
+
+<!--Якірні посилання
+id="home"
+id="how-its-made"
+id="our-products"
+id="top-sellers"
+id="chocolate-is-loved"
+-->
