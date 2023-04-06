@@ -93,7 +93,7 @@
 
 .footer-menu::before {
 
-
+    max-width: 100%;
     content: "";
     display: block;
     width: 335px;
@@ -132,8 +132,22 @@
         width: 24px;
         height: 24px;
     }
+
+    .footer-menu::before{
+        width: 704px;
+    }
 }
 
+
+@media screen and (min-width: 1200px) {
+    .container {
+      width: 1166px;
+    }
+
+    .footer-menu::before{
+        width: 1136px;
+    }
+  }
 
 
 
