@@ -22,10 +22,19 @@
   margin-bottom: 22px;
 }
 .advantages-list-item {
-  width: 308px;
   text-align: left;
 }
 /* Mobile */
+@media screen and (max-width: 374px) {
+  .advantages-list-item {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 375px) {
+  .advantages-list-item {
+    width: 308px;
+  }
+}
 @media screen and (max-width: 767px) {
   .advantages-section {
     padding-top: 20px;
@@ -35,6 +44,7 @@
     margin-bottom: 20px;
   }
 }
+
 /* Tablet */
 @media screen and (min-width: 768px) {
   .advantages-section {
