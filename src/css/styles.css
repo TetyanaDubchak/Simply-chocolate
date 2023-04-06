@@ -89,7 +89,11 @@ body {
   --secondary-color: #1e1823;
   --main-accent-color: #fd9222;
   --white-color: #ffffff;
+
   --btn-bg-hover: #fcf1e0;
+
+  --products-btn-bg: #fafafa;
+
 }
 
 :root {
