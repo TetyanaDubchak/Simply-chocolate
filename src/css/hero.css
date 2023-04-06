@@ -53,6 +53,7 @@
   margin-bottom: 32px;
 }
 
+/* ===== Buttons =========*/
 .btn-buy {
   width: 100%;
   max-width: 120px;
@@ -61,6 +62,7 @@
 .btn-info {
   min-width: 159px;
 }
+/* / Buttons  */
 
 .hero-list {
   display: flex;
@@ -93,9 +95,16 @@
 
 /* MEDIA Mobile */
 
-@media screen and (min-width: 375px) {
+/* @media screen and (min-width: 375px) {
+} */
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-bottom: 50px;
+  }
+
   .container-hero {
-    background-image: url('/img/mobile/hero1x.jpg');
+    background-image: url('/img/tablet/hero1x.jpg');
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -103,7 +112,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .container-hero {
-      background-image: url('/img/mobile/hero2x.jpg');
+      background-image: url('/img/tablet/hero2x.jpg');
     }
   }
 
@@ -112,7 +121,64 @@
     (min-resolution: 288dpi),
     (min-resolution: 3dppx) {
     .container-hero {
-      background-image: url('/img/mobile/hero3x.jpg');
+      background-image: url('/img/tablet/hero3x.jpg');
     }
+  }
+
+  .container.container-hero {
+    padding-top: 671px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .hero-title {
+    max-width: 404px;
+    font-size: 28px;
+    line-height: calc(34 / 28);
+    letter-spacing: -0.03em;
+  }
+
+  .hero-contant-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hero-btn-wrapper {
+    margin-bottom: 0;
+    justify-content: flex-start;
+  }
+
+  .hero-item-scroll-desc {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .hero-scroll-down-btn {
+    width: 38px;
+    height: 38px;
+  }
+
+  .hero-scroll-down-icon {
+    display: none;
+  }
+
+  .hero-scroll-down-icon-tablet {
+    fill: var(--main-accent-color);
+  }
+
+  .btn.btn-buy {
+    padding: 14px 40px;
+    max-width: none;
+    min-width: 144px;
+    height: auto;
+  }
+
+  .btn.btn-info {
+    padding: 14px 40px;
+    max-width: none;
+    min-width: 183px;
+    height: auto;
   }
 }
