@@ -16,7 +16,7 @@
 
     
     <script type="module" crossorigin src="/Web4you/assets/index-7f3555a6.js"></script>
-    <link rel="stylesheet" href="/Web4you/assets/index-5f1dab73.css">
+    <link rel="stylesheet" href="/Web4you/assets/index-6ee3ccf1.css">
   </head>
 
   <body>
@@ -471,6 +471,66 @@ id="chocolate-is-loved"
 
       <!-- Buy Now Modal -->
       <!-- Leave Review Modal -->
+<div class="backdrop">
+  <div class="modal-leave-review">
+    <button class="modal-leave-review-close-btn">
+      <svg class="modal-leave-review-close-btn-icon" width="28" height="28">
+        <use href="/Web4you/assets/sprite-eeec2f07.svg#icon-close-28"></use>
+      </svg>
+    </button>
+    <p class="modal-leave-review-text">
+      LEAVE A REVIEW ABOUT
+      <span class="modal-leave-review-text-accent">OUR CHOCOLATE</span>
+    </p>
+    <form class="modal-leave-review-form">
+      <label class="modal-leave-review-form-filed">
+        <input
+          class="modal-leave-review-input"
+          type="text"
+          name="user_name"
+          required
+          pattern="^[a-zA-Za-яА-Я]+"
+          minlength="2"
+          placeholder="Name"
+        />
+      </label>
+      <label class="modal-leave-review-form-filed">
+        <input
+          class="modal-leave-review-input"
+          type="email"
+          name="user_mail"
+          required
+          placeholder="Email"
+        />
+      </label>
+      <label class="modal-leave-review-form-filed">
+        <span class="modal-leave-review-input-wrapper">
+          <input
+            class="modal-leave-review-input leave-review-input-tel"
+            type="tel"
+            name="user_phone"
+            required
+            title="xx-xxx-xx-xx"
+            placeholder="Phone number"
+          />
+          <svg class="leave-review-input-tel-icon" width="31" heigh="23">
+            <use href="/Web4you/assets/sprite-eeec2f07.svg#icon-ukraine-flag"></use>
+          </svg>
+          <p class="leave-review-input-tel-text">+380</p>
+        </span>
+      </label>
+    </form>
+    <label class="modal-leave-review-form-filed-message">
+      <textarea
+        class="modal-leave-review-form-message"
+        name="user_message"
+        placeholder="Enter text"
+      ></textarea>
+    </label>
+    <button class="modal-leave-review-form-sumbit" type="submit">Send</button>
+  </div>
+</div>
+
       <!-- Explore our new chocolate /  Modal -->
     </main>
 
