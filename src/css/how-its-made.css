@@ -14,7 +14,7 @@
   color: var(--main-accent-color);
 }
 .how-its-made_iframe-wrapper {
-  max-width: 335px;
+  max-width: 100%;
   height: 500px;
   margin-bottom: 20px;
 }
@@ -34,12 +34,14 @@
   font-size: 18px;
   line-height: 1.33;
   margin-bottom: 20px;
+  letter-spacing: normal;
 }
 .how-its-made_list {
   display: flex;
   flex-wrap: wrap;
   row-gap: 18px;
   margin-left: 16px;
+  justify-content: start;
 }
 .how-its-made_list-item {
   position: relative;
@@ -58,6 +60,23 @@
 }
 
 @media screen and (min-width: 768px) {
+  .how-its-made_section .container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .how-its-made_description-wrapper {
+    padding: 32px;
+  }
+  .how-its-made_iframe-wrapper {
+    max-width: 614px;
+    height: 400px;
+  }
+  .how-its-made_description {
+    max-width: 350px;
+  }
+  .how-its-made_list {
+    max-width: 464px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
