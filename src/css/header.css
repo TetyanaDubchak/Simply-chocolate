@@ -133,6 +133,12 @@ header {
 .header-mobile-social-icon {
   fill: #FFFFFF;
 }
+
+@media screen and (min-width: 723px) and (max-width: 767px) {
+  .header-mobile-wrap {
+    width: 244px;
+  }
+}
  
 /*======Tablet style=========*/
 @media screen and (min-width: 768px) {
