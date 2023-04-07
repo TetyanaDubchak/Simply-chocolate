@@ -42,7 +42,6 @@
   flex-wrap: wrap;
   row-gap: 18px;
   margin-left: 16px;
-  justify-content: start;
 }
 .how-its-made_list-item {
   position: relative;
