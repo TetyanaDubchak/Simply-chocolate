@@ -119,6 +119,7 @@
   width: 28px;
   height: 28px;
   background-color: var(--white-color);
+  cursor: pointer;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
