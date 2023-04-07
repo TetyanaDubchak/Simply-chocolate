@@ -23,6 +23,7 @@
   height: 100%;
   border-radius: 15px;
   border-color: transparent;
+  border: none;
 }
 .how-its-made_description-wrapper {
   padding: 20px 14px;
@@ -84,4 +85,27 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .how-its-made_section .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .how-its-made_row {
+    column-gap: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .how-its-made_iframe-wrapper {
+    flex-grow: 1;
+    margin-bottom: 0;
+  }
+  .how-its-made_list {
+    row-gap: 24px;
+  }
+  .how-its-made_description-wrapper {
+    min-width: 516px;
+  }
+  .how-its-made_list {
+    max-width: 425px;
+  }
 }
