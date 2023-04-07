@@ -60,7 +60,7 @@
 /* ===== Buttons =========*/
 .btn-buy {
   width: 100%;
-  max-width: 120px;
+  max-width: 122px;
 }
 
 .btn-info {
@@ -156,6 +156,8 @@
 /* @media screen and (min-width: 375px) {
 } */
 
+/*========== MEDIA TABLET ============ */
+
 @media screen and (min-width: 768px) {
   .hero {
     padding-bottom: 50px;
@@ -246,18 +248,16 @@
     padding: 14px 40px;
     max-width: none;
     min-width: 144px;
-    height: auto;
   }
 
   .btn.btn-info {
     padding: 14px 40px;
     max-width: none;
-    min-width: 183px;
-    height: auto;
+    min-width: 185px;
   }
 }
 
-/* =========== Tablet ================= */
+/* =========== Desktop ================= */
 
 @media screen and (min-width: 1200px) {
   .hero {
