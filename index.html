@@ -15,8 +15,8 @@
     />
 
     
-    <script type="module" crossorigin src="/Web4you/assets/index-7f3555a6.js"></script>
-    <link rel="stylesheet" href="/Web4you/assets/index-b506659c.css">
+    <script type="module" crossorigin src="/Web4you/assets/index-141abca7.js"></script>
+    <link rel="stylesheet" href="/Web4you/assets/index-715f255a.css">
   </head>
 
   <body>
@@ -169,8 +169,10 @@ id="chocolate-is-loved"
     </h1>
     <div class="hero-contant-wrapper">
       <div class="hero-btn-wrapper">
-        <button class="btn btn-buy">Buy now</button>
-        <button class="btn btn-info">How it’s made</button>
+        <button class="btn btn-buy" type="button">Buy now</button>
+        <button class="btn btn-info" type="button" data-open-modal="1">
+          How it’s made
+        </button>
       </div>
       <ul class="hero-list">
         <li class="hero-item">
@@ -471,9 +473,9 @@ id="chocolate-is-loved"
 
       <!-- Buy Now Modal -->
       <!-- Leave Review Modal -->
-<div class="backdrop">
+<div class="backdrop is-hidden" data-modal="1">
   <div class="modal-leave-review">
-    <button class="modal-leave-review-close-btn">
+    <button class="modal-leave-review-close-btn" data-close-modal>
       <svg class="modal-leave-review-close-btn-icon" width="28" height="28">
         <use href="/Web4you/assets/sprite-eeec2f07.svg#icon-close-28"></use>
       </svg>
@@ -536,5 +538,6 @@ id="chocolate-is-loved"
 
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    
   </body>
 </html>
