@@ -1,6 +1,7 @@
 /* Our Products Section */
 
 .our-products-container {
+  display: none;
   padding: 72px 0;
 }
 
