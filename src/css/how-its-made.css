@@ -73,9 +73,13 @@
   }
   .how-its-made_description {
     max-width: 350px;
+    margin-bottom: 28px;
   }
   .how-its-made_list {
     max-width: 464px;
+  }
+  .how-its-made_section-title {
+    margin-bottom: 50px;
   }
 }
 
