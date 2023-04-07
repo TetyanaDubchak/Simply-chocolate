@@ -88,7 +88,7 @@
   min-width: 117px;
   padding: 12px 28px;
   background-color: var(--main-accent-color);
-  border: 1px solid var(--main-accent-color);
+  border: none;
   align-self: center;
   border-radius: 100px;
 
@@ -155,6 +155,11 @@
 /*============ Tablet ============*/
 
 @media screen and (min-width: 768px) {
+  .modal-leave-review-close-btn-icon {
+    width: 28px;
+    height: 28px;
+  }
+
   .modal-leave-review {
     padding: 40px 40px;
     border-radius: 15px;
@@ -217,5 +222,9 @@
     line-height: 1.22;
     letter-spacing: -0.02em;
     color: rgba(64, 64, 64, 0.3);
+  }
+
+  .modal-leave-review-form-sumbit {
+    padding: 14px 40px;
   }
 }
