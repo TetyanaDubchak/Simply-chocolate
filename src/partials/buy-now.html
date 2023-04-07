@@ -1,1 +1,63 @@
 <!-- Buy Now Modal -->
+<div class="buy-now">
+    <button class="buy-close-btn">
+        <svg>
+            <use></use>
+        </svg>
+    </button>
+
+    <p class="buy-text"><span>BUY</span>NOW</p>
+
+    <ul>
+        <li>
+            <img src="" alt="">
+            <button></button>
+        </li>
+        <li>
+            <img src="" alt="">
+            <button></button>
+        </li>
+        <li>
+            <img src="" alt="">
+            <button></button>
+        </li>
+    </ul>
+
+    <form class="buy-form">
+        <label class="buy-form-field">
+            <span>Personal information</span>
+            <input class="buy-form-input" type="text" name="user-name" required pattern="^[a-zA-Zа-яА-Я]+$"
+                minlength="3" placeholder="Name">
+          
+            <input class="buy-form-input" type="text" name="user-surname" required pattern="^[a-zA-Zа-яА-Я]+$"
+                minlength="3" placeholder="Surname">
+           
+        </label>
+        <label class="buy-form-field">
+            <span>Email</span>
+            <input class="buy-form-input" type="email" name="user-email" placeholder="Enter your email" requaired>
+            
+        </label>
+        <label class="buy-form-field">
+            <span>Phone number</span>
+            <input class="buy-form-input" type="tel" name="user-phone" placeholder="Phone number" requaired
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="XXX-XXX-XX-XX">
+                <svg>
+                    <use></use>
+                </svg>
+        </label>
+        <label class="buy-form-field">
+            <span>Card number</span>
+            <input class="buy-form-input" type="number" name="user-card" placeholder="Enter-card" required
+            pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}">
+            <svg>
+                <use></use>
+            </svg>
+        </label>
+        <label class="buy-form-field">
+            <span>Comment</span>
+            <textarea class="buy-message" name="user-message" placeholder="Enter text" ></textarea>
+        </label>
+        <button type="submit" class="buy-submit-btn"></button>
+    </form>
+</div>
