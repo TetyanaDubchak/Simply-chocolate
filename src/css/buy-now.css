@@ -1,7 +1,190 @@
 /* Modal Window - Buy Now */
 
-.buy-form{
+.buy-now {
+    position: relative;
+    background: #FAFAFA;
+    border-radius: 15px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.buy-close-btn {
+    position: absolute;
+    border: none;
+
+    background-color: transparent;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 14px;
+    right: 14px;
+
+    transition: background var(--transition);
+}
+
+.buy-close-btn-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.buy-text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+
+    color: #111111;
+    margin-bottom: 32px;
+
+}
+
+.buy-form {
     display: flex;
     flex-direction: column;
-    
+
+}
+
+.buy-span {
+    color: #FD9222;
+}
+
+.buy-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 32px;
+
+}
+
+.buy-input-wrapper {
+    position: relative;
+}
+
+.buy-item {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 15px;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buy-list-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 6px 16px;
+    gap: 14px;
+
+    background: #FAFAFA;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 100px;
+
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #111111;
+}
+
+.buy-form-descr {
+    display: block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.17;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.buy-form-field {
+    margin-bottom: 18px;
+
+}
+
+.buy-form-input {
+
+    padding: 14px 18px;
+    width: 100%;
+    position: relative;
+
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+    border-radius: 8px;
+    width: 100%;
+
+}
+
+.buy-phone-icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+}
+
+.buy-card-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+
+    position: absolute;
+    width: 32px;
+    height: 21px;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+
+.phone-icon {
+    position: absolute;
+    display: flex;
+    left: 20px;
+    bottom: 11px;
+    text-align: center;
+}
+
+.buy-input-wrapper {
+    position: relative;
+    display: block;
+}
+
+.buy-form-input-tel {
+    padding-left: 106px;
+}
+
+.buy-input-tel-text {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    font-weight: 500;
+    line-height: 1.21;
+    letter-spacing: -.02em;
+}
+
+.buy-input-tel-text::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    width: 1px;
+    height: 32px;
+    background-color: #4040404d;
 }
