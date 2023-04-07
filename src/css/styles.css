@@ -23,7 +23,7 @@
 @import url('./leave-review.css');
 @import url('./explore-new.css');
 
-@import url('./overlay.css');
+@import url('./backdrop.css');
 
 @font-face {
   font-family: 'Montserrat';
