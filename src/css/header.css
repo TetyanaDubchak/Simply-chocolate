@@ -61,27 +61,30 @@ header {
 }
 
 .header-mobile-wrap {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   z-index: 1000;
 
-  height: 100vh;
-  min-width: 220px;
+  height: 100%;
+  width: 220px;
 
   padding-top: 136px;
   padding-left: 50px;
 
   background-color: rgba(30, 24, 35, 1);
 
-  transition: transform 600ms ease-out, opasity 1000ms ease-out, visibility 1000ms ease-out;
-}
-
-.header-mobile-wrap.is-open {
-  transform: translate(100%, 0);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+
+.header-mobile-wrap.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .header-close-btn {
@@ -119,7 +122,7 @@ header {
 }
 
 .header-mobile-social-list {
-  position: absolute;
+ /* position: absolute;*/
   bottom: 20px;
   left: 20px;
 
@@ -129,6 +132,12 @@ header {
 
 .header-mobile-social-icon {
   fill: #FFFFFF;
+}
+
+@media screen and (min-width: 723px) and (max-width: 767px) {
+  .header-mobile-wrap {
+    width: 244px;
+  }
 }
  
 /*======Tablet style=========*/
@@ -152,7 +161,7 @@ header {
     right: 32px;
     color: #FFFFFF;
 
-    transition: color 250ms ease;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-close-btn:hover,
@@ -173,7 +182,7 @@ header {
 
   .header-mobile-social-link{
     color: #FFFFFF;
-    transition: color 250ms ease;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-mobile-social-link:hover,
@@ -253,7 +262,7 @@ header {
   .header-social-link {
     padding-top: 24px;
     padding-bottom: 32px;
-    transition: color 250ms ease;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-social-link:hover,
