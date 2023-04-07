@@ -1,1 +1,112 @@
 /* How its made Section */
+.how-its-made_section {
+  background-color: var(--body-bg-color);
+}
+.how-its-made_section-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+.accent-section-title {
+  color: var(--main-accent-color);
+}
+.how-its-made_iframe-wrapper {
+  max-width: 335px;
+  height: 500px;
+  margin-bottom: 20px;
+}
+.how-its-made_video {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  border-color: transparent;
+  border: none;
+}
+.how-its-made_description-wrapper {
+  max-width: 335px;
+  padding: 20px 14px;
+  background: var(--white-color);
+  border-radius: 15px;
+}
+.how-its-made_description {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  margin-bottom: 20px;
+  letter-spacing: normal;
+}
+.how-its-made_list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 18px;
+  margin-left: 16px;
+}
+.how-its-made_list-item {
+  position: relative;
+}
+.how-its-made_list-item::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  left: -16px;
+  top: 5px;
+  background: #4c4c4c;
+  border: 1px solid #eceded;
+}
+
+@media screen and (min-width: 768px) {
+  .how-its-made_section .container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .how-its-made_description-wrapper {
+    padding: 32px;
+    max-width: 614px;
+  }
+  .how-its-made_iframe-wrapper {
+    max-width: 614px;
+    height: 400px;
+  }
+  .how-its-made_description {
+    max-width: 350px;
+    margin-bottom: 28px;
+  }
+  .how-its-made_list {
+    max-width: 464px;
+  }
+  .how-its-made_section-title {
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 1.17;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .how-its-made_section .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .how-its-made_row {
+    column-gap: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .how-its-made_iframe-wrapper {
+    flex-grow: 1;
+    margin-bottom: 0;
+  }
+  .how-its-made_list {
+    row-gap: 24px;
+    max-width: 425px;
+  }
+  .how-its-made_description-wrapper {
+    min-width: 516px;
+  }
+}
