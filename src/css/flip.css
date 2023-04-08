@@ -1,0 +1,164 @@
+.flip-list {
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+}
+
+.flip-list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.uniqu-components-img {
+  margin: 0;
+  padding-top: 28px;
+}
+.unique-components-list-item-title {
+  margin: 0;
+  padding-left: 28px;
+  padding-bottom: 28px;
+  text-align: start;
+  padding-top: 28px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 335px;
+  height: 270px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  border-radius: 15px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  border-radius: 15px;
+
+  color: var(--primary-color);
+}
+
+.flip-style-accent {
+  color: white;
+  background-color: #fd9222;
+}
+
+.flip-style-primery {
+  color: white;
+  background-color: #1e1823;
+}
+
+.flip-style-border {
+  border: 1px solid #fd9222;
+}
+
+.flip-back-wrap {
+  padding: 28px;
+}
+
+.flip-card-back {
+  color: var(--body-bg-color);
+  transform: rotateY(180deg);
+}
+
+.flip-title {
+  text-align: start;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-color);
+}
+
+.wrap-flip-btn {
+  display: flex;
+  gap: 6px;
+}
+.flip-btn {
+  justify-content: center;
+
+  padding: 6px 16px;
+
+  max-width: 100%;
+  height: 24px;
+
+  background: var(--body-bg-color);
+
+  border: 1px solid #fd9222;
+  border-radius: 35px;
+
+  margin-bottom: 14px;
+  font-size: 10px;
+  line-height: 1.2;
+
+  display: flex;
+  align-items: center;
+
+  color: var(--primary-color);
+}
+
+.flip-btn:hover,
+.flip-btn:focus {
+  color: var(--body-bg-color);
+  background: var(--main-accent-color);
+}
+.flip-description {
+  height: 146px;
+  text-align: left;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.28;
+  min-height: 146px;
+  letter-spacing: -0.02em;
+  overflow: scroll;
+  color: #111111;
+}
+
+@media screen and (max-width: 375px) {
+  .flip-card {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .flip-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 32px;
+  }
+
+  .flip-list-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .flip-list {
+    gap: 19px;
+  }
+  .flip-card {
+    width: 270px;
+  }
+}
