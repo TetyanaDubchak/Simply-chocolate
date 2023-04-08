@@ -121,7 +121,7 @@
 
 @media screen and (min-width: 768px) {
   .modal-explore-new {
-    min-width: 538px;
+    max-width: 538px;
     min-height: 412px;
   }
   .modal-explore-new-close-btn-icon {
