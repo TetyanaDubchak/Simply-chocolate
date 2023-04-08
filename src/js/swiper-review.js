@@ -9,7 +9,7 @@ $('.slick').slick({
   autoplaySpeed: 3000,
   responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 769,
       settings: {
         slidesToShow: 2,
       },

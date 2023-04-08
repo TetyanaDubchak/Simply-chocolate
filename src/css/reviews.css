@@ -93,12 +93,26 @@
 }
 
 /* ========= Swiper =============*/
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .container.slick-contant {
+    max-width: 100%;
+    width: 100%;
+  }
+}
 
 @media screen and (min-width: 768px) {
+  .container.slick-contant {
+    max-width: 100%;
+    width: 100%;
+  }
+
   .reviews-item {
     flex-basis: calc((100% - 16px) / 2);
   }
 }
 
 @media screen and (min-width: 1200px) {
+  .container.slick-contant {
+    width: 100%;
+  }
 }

@@ -1,7 +1,3 @@
-.slick-section .actions {
-  margin-bottom: 1.5rem;
-}
-
 .slick {
   margin: 0 -12px;
 }
@@ -36,7 +32,4 @@
   height: 13px;
   border-radius: 30px;
   background-color: var(--main-accent-color);
-}
-
-.slick .slick-slide {
 }
