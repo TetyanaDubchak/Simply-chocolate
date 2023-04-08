@@ -1,3 +1,8 @@
 
 
-import '/js/mobile-menu.js'
+import '/js/mobile-menu'
+
+
+
+
+import '/js/swiper-review'
