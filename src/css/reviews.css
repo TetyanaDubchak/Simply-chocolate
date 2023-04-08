@@ -52,7 +52,7 @@
 .reviews-thumb {
   height: 200px;
 
-  padding-top: 80px;
+  padding-top: 54px;
   padding-bottom: 42px;
   padding-left: 18px;
   padding-right: 18px;
@@ -93,7 +93,7 @@
 }
 
 /* ========= Swiper =============*/
-@media screen and (min-width: 375px) and (max-width: 767px) {
+/* @media screen and (min-width: 375px) and (max-width: 767px) {
   .container.slick-contant {
     max-width: 100%;
     width: 100%;
@@ -114,5 +114,48 @@
 @media screen and (min-width: 1200px) {
   .container.slick-contant {
     width: 100%;
+  }
+} */
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .container.slick-contant {
+    max-width: 734px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container.slick-contant {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .reviews-item {
+    flex-basis: calc((100% - 16px) / 2);
+  }
+
+  .reviews-thumb {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container.slick-contant {
+    max-width: 1166px;
+  }
+
+  .reviews-item {
+    flex-basis: calc((100% - 32px) / 3);
+  }
+
+  .reviews-thumb {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 26px;
+    padding-top: 56px;
+  }
+
+  .slick-track {
+    gap: 28px;
   }
 }
