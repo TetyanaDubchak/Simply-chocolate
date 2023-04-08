@@ -5,7 +5,7 @@ $('.slick').slick({
   dots: true,
   arrows: false,
   infinite: true,
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 3000,
   responsive: [
     {
