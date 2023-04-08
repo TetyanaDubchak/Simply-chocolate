@@ -1,28 +1,33 @@
 <!-- Hero Section -->
 <section class="hero">
   <div class="container container-hero">
-    <h1 class="hero-title">
+    <h1 class="visually-hidden">Hero</h1>
+    <h2 class="hero-title">
       Treat yourself or a loved one to our finest ingredients for a moment of
       pure delight!
-    </h1>
+    </h2>
     <div class="hero-contant-wrapper">
       <div class="hero-btn-wrapper">
-        <button class="btn btn-buy">Buy now</button>
-        <button class="btn btn-info">How it’s made</button>
+        <button class="btn btn-buy" type="button" data-open-modal="2">
+          Buy now
+        </button>
+        <a href="#how-its-made" class="btn btn-info" data-open-modal="1">
+          How it’s made
+        </a>
       </div>
       <ul class="hero-list">
         <li class="hero-item">
-          <a class="hero-item-scroll-desc">scroll down</a>
+          <a href="#footer-main" class="hero-item-scroll-desc">scroll down</a>
         </li>
         <li class="hero-item">
-          <button class="hero-scroll-down-btn" type="button">
+          <a href="#footer-main" class="hero-scroll-down-btn">
             <svg class="hero-scroll-down-icon" width="16" height="16">
               <use href="/img/sprite.svg#icon-scroll-down16"></use>
             </svg>
             <svg class="hero-scroll-down-icon-tablet" width="22" height="22">
               <use href="/img/sprite.svg#icon-scroll-down22"></use>
             </svg>
-          </button>
+          </a>
         </li>
       </ul>
     </div>
