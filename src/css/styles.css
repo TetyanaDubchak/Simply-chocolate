@@ -93,6 +93,10 @@ body {
   --btn-bg-hover: #fcf1e0;
 
   --products-btn-bg: #fafafa;
+
+  --modal-title-color: #111111;
+
+  --modal-buy-text: #000000;
 }
 
 :root {
