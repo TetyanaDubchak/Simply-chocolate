@@ -1,6 +1,5 @@
-
 $('.slick').slick({
-  slidesToShow: 3,
+  slidesToShow: 4,
   slidesToScroll: 1,
   dots: true,
   arrows: false,
@@ -29,4 +28,5 @@ $('.slick').slick({
   ],
 
 });
+
 
