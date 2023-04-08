@@ -1,1 +1,35 @@
-/* Top-Seller Section */
+.top-sellers {
+  text-align: center;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.top-sellers-title {
+  margin-bottom: 32px;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.top-sellers-title_accent {
+  color: var(--main-accent-color);
+}
+
+.top-sellets-item-info {
+  width: 306px;
+  margin-bottom: 32px;
+  line-height: 1.29;
+}
+
+.top-sellers-img {
+  margin-bottom: 20px;
+}
+
+.btn.top-sellers-btn {
+  display: inline-flex;
+  background-color: var(--main-accent-color);
+}
