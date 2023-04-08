@@ -1,6 +1,5 @@
 .top-sellers {
   text-align: center;
-  padding-top: 72px;
   padding-bottom: 72px;
 }
 
@@ -19,7 +18,11 @@
   margin-bottom: 20px;
 }
 
-.top-sellers-item:not(:last-child) {
+.top-sellers-item {
+  margin-bottom: 32px;
+}
+
+.top-sellers-item:nth-child(2) {
   margin-bottom: 20px;
 }
 
@@ -54,7 +57,6 @@
 
 @media screen and (min-width: 768px) {
   .top-sellers {
-    padding-top: 100px;
     padding-bottom: 100px;
   }
 
@@ -82,7 +84,7 @@
     flex-basis: calc((100% - 16px) / 2);
   }
 
-  .top-sellers-item:not(:last-child) {
+  .top-sellers-item:nth-child(2) {
     margin-bottom: 0;
   }
 
@@ -117,7 +119,6 @@
 
 @media screen and (min-width: 1200px) {
   .top-sellers {
-    padding-top: 128px;
     padding-bottom: 128px;
   }
 
