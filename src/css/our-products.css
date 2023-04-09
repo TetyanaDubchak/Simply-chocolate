@@ -73,15 +73,16 @@
 
 @media screen and (min-width: 375px) {
   .container.products-content {
-    max-width: 734px;
-    width: 100%;
+    width: 375px;
+    /* width: 100%; */
   }
 }
 
 @media screen and (min-width: 768px) {
   .container.products-content {
-    max-width: 100%;
-    width: 100%;
+    /* max-width: 100%;
+    width: 100%; */
+    width: 768px;
   }
 
   .our-products-list .slick-track {
@@ -101,13 +102,13 @@
   .our-products-list-item {
     height: 364px;
     padding: 32px 20px;
-    flex-basis: calc((100% - 36px) / 3);
+    /* flex-basis: calc((100% - 36px) / 2.5); */
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container.products-content {
-    max-width: 1166px;
+    width: 1200px;
   }
 
   .our-products {
