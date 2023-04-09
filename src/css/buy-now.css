@@ -119,9 +119,9 @@
     width: 100%;
 }
 
-.buy-form-field:nth-child(odd) {
-    margin-bottom: 18px;
-}
+ .buy-form-field:nth-child(odd) {
+    margin-bottom: 14px;
+} 
 
 .buy-form-input {
     padding: 14px 18px;
@@ -288,6 +288,7 @@
     .buy-now-modal {
         min-width: 517px;
         min-height: 631px;
+        padding: 48px;
     }
 
     .buy-list-btn {
@@ -303,7 +304,18 @@
         align-items: flex-start;
         padding: 0px;
         gap: 21px;
+        margin-bottom: 18px;
 
+    }
+
+    .buy-form-field:nth-child(-n + 2){
+        margin-bottom: 0;
+    }
+
+
+     .buy-form-input.buy-form-input-tel{
+
+        padding-left: 106px;
     }
 
     .buy-picture {
