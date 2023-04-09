@@ -7,24 +7,38 @@ $('.slick').slick({
   autoplay: true,
   autoplaySpeed: 3000,
   responsive: [
+    // {
+    //   breakpoint: 769,
+    //   settings: {
+    //     slidesToShow: 2,
+    //   },
+    //   },
+    // {
+    //   breakpoint: 480,
+    //   settings: {
+    //     slidesToShow: 1,
+    //   },
+    // },
+    // {
+    //   breakpoint: 376,
+    //   settings: {
+    //     slidesToShow: 1,
+    //   },
+    // },
+
     {
-      breakpoint: 769,
+      breakpoint: 1200,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 2.5,
       },
       },
     {
-      breakpoint: 480,
+      breakpoint: 768,
       settings: {
         slidesToShow: 1,
       },
     },
-    {
-      breakpoint: 376,
-      settings: {
-        slidesToShow: 1,
-      },
-    },
+    
   ],
 
 });
