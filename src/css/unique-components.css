@@ -34,15 +34,11 @@
   width: 335px;
 }
 
-.uniqu-components-picture {
-  padding-top: 28px;
-  display: flex;
-  justify-content: center;
-}
 .unique-components-list {
 }
 
 .unique-components-list-item {
+  padding: 28px 32px;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
@@ -67,9 +63,8 @@
 }
 
 .unique-components-list-item-title {
-  padding-top: 25px;
-  padding-left: 28px;
-  padding-bottom: 28px;
+  margin-top: 25px;
+
   font-weight: 600;
   font-size: 14px;
   line-height: 1.28;
@@ -80,6 +75,7 @@
 /* overlay */
 
 .overlay {
+  padding: 28px;
   content: '';
   position: absolute;
   left: 0;
@@ -111,8 +107,6 @@
 }
 
 .flip-title {
-  padding-top: 28px;
-  padding-left: 28px;
   text-align: start;
   margin-bottom: 8px;
   font-weight: 600;
@@ -124,19 +118,17 @@
 }
 
 .wrap-flip-btn {
-  padding-left: 28px;
+  margin-bottom: 14px;
   display: flex;
   gap: 6px;
 }
 .flip-btn {
   justify-content: center;
-  padding: 6px 16px;
   max-width: 100%;
   height: 24px;
   background: var(--body-bg-color);
   border: 1px solid #fd9222;
   border-radius: 35px;
-  margin-bottom: 14px;
   font-size: 10px;
   line-height: 1.2;
   display: flex;
@@ -154,8 +146,6 @@
   background-color: var(--main-accent-color);
 }
 .flip-description {
-  padding-left: 28px;
-  padding-right: 28px;
   height: 146px;
   text-align: left;
   margin: 0;
@@ -185,6 +175,12 @@
 @media screen and (max-width: 768px) {
   .unique-components-list-item:not(:last-child) {
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .unique-components-list-item:nth-child(3) {
+    order: 4;
   }
 }
 
