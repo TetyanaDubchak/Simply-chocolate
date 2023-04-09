@@ -97,6 +97,7 @@
 }
 
 .modal-leave-review-form-filed {
+  display: block;
   margin-bottom: 14px;
 }
 
@@ -246,7 +247,6 @@
 
   .modal-leave-review-form-message {
     padding: 22px 24px;
-    margin-bottom: 18px;
 
     font-size: 18px;
     line-height: 1.22;
