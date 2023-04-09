@@ -87,6 +87,29 @@
   border-color: var(--main-accent-color);
 }
 
+/* ===== Remove background after autofill */
+.modal-leave-review-input:-webkit-autofill,
+.modal-leave-review-input:-webkit-autofill:hover,
+.modal-leave-review-input:-webkit-autofill:focus {
+  border: 1px solid var(--btn-bg-color);
+  -webkit-text-fill-color: var(--primary-color);
+  -webkit-box-shadow: 0 0 0px 1000px var(--secondary-text-color) inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.modal-leave-review-input:focus {
+  outline: none;
+  border: 1px solid var(--btn-bg-color);
+}
+
+.modal-leave-review-input::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: rgba(64, 64, 64, 0.3);
+}
+/* ===== Remove background after autofill */
+
 .modal-leave-review-form-filed {
   margin-bottom: 14px;
 }
