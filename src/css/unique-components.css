@@ -16,7 +16,6 @@
   letter-spacing: -0.03em;
   text-transform: uppercase;
   color: var(--primary-color);
-
   width: 283px;
 }
 .accent {
@@ -32,9 +31,6 @@
   letter-spacing: -0.02em;
   color: var(--primary-color);
   width: 335px;
-}
-
-.unique-components-list {
 }
 
 .unique-components-list-item {
@@ -178,12 +174,6 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .unique-components-list-item:nth-child(3) {
-    order: 4;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .unique-components {
     padding-top: 100px;
@@ -212,6 +202,12 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .unique-components-list-item:nth-child(3) {
+    order: 4;
   }
 }
 
