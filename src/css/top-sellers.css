@@ -133,4 +133,8 @@
   .top-sellers-img {
     width: 368px;
   }
+
+  .top-sellets-item-info{
+  max-width: 407px;
+  }
 }
