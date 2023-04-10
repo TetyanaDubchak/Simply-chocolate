@@ -107,6 +107,11 @@
   padding: 0px;
 }
 
+.buy-form-input:hover,
+.buy-form-input:focus{
+  border-color: var(--main-accent-color);
+}
+
 .buy-item {
   width: 100%;
   background-color: var(--white-color);
@@ -153,6 +158,8 @@
   margin-bottom: 18px;
   width: 100%;
 }
+
+
 
 .buy-form-field:nth-child(odd) {
   margin-bottom: 14px;
@@ -251,6 +258,12 @@
   letter-spacing: -0.02em;
   transition: border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
+ 
+}
+
+.buy-message:hover,
+.buy-message:focus{
+  border-color: var(--main-accent-color);
 }
 
 .buy-submit-btn {
