@@ -43,6 +43,11 @@
   fill: var(--main-accent-color);
 }
 
+.modal-explore-new-close-btn-icon:active {
+  transform: scale(1.1);
+  fill: var(--main-accent-color);
+}
+
 .explore-new_box {
   padding: 32px 24px;
 }

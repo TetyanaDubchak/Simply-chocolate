@@ -120,6 +120,11 @@ header {
   transform: scale(1.1);
 }
 
+.header-close-icon:active {
+  fill: var(--main-accent-color);
+  transform: scale(1.1);
+}
+
 .header-mobile-menu-wrap {
   padding-left: 30px;
 }
@@ -143,6 +148,10 @@ header {
 
 .header-mobile-menu-link:hover,
 .header-mobile-menu-link:focus {
+  color: rgba(253, 146, 34, 1);
+}
+
+.header-mobile-menu-link:active {
   color: rgba(253, 146, 34, 1);
 }
 
@@ -176,17 +185,23 @@ header {
 .header-mobile-social-link {
   display: flex;
 
-  color: #ffffff;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-mobile-social-link:hover,
-.header-mobile-social-link:focus {
-  color: rgba(253, 146, 34, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-mobile-social-icon {
-  fill: currentColor;
+  fill: var(--white-color);
+}
+
+.header-mobile-social-link:hover .header-mobile-social-icon,
+.header-mobile-social-link:focus .header-mobile-social-icon {
+  fill: rgba(253, 146, 34, 1);
+  transform: scale(1.1);
+}
+
+.header-mobile-social-link:active .header-mobile-social-icon {
+  fill: rgba(253, 146, 34, 1);
+  transform: scale(1.1);
 }
 
 @media screen and (min-width: 723px) and (max-width: 767px) {
@@ -295,6 +310,10 @@ header {
     color: rgba(253, 146, 34, 1);
   }
 
+  .header-menu-link:active {
+    color: rgba(253, 146, 34, 1);
+  }
+
   .header-menu-link::after {
     position: absolute;
     bottom: 28px;
@@ -334,6 +353,10 @@ header {
 
   .header-social-link:hover,
   .header-social-link:focus {
+    color: rgba(253, 146, 34, 1);
+  }
+
+  .header-social-link:active {
     color: rgba(253, 146, 34, 1);
   }
 
