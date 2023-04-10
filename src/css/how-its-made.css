@@ -43,7 +43,7 @@
   display: flex;
   flex-wrap: wrap;
   row-gap: 18px;
-  margin-left: 16px;
+  padding-left: 16px;
 }
 .how-its-made_list-item {
   position: relative;
