@@ -75,11 +75,13 @@
     height: 400px;
   }
   .how-its-made_description {
-    max-width: 350px;
     margin-bottom: 28px;
   }
+  .new-line-title {
+    display: block;
+  }
   .how-its-made_list {
-    max-width: 464px;
+    padding-right: 63px;
   }
   .how-its-made_section-title {
     margin-bottom: 50px;
@@ -104,9 +106,9 @@
   }
   .how-its-made_list {
     row-gap: 24px;
-    max-width: 425px;
+    padding-right: 20px;
   }
   .how-its-made_description-wrapper {
-    min-width: 516px;
+    max-width: 516px;
   }
 }
