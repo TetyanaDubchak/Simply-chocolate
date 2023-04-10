@@ -128,10 +128,12 @@
   width: 100%;
 }
 
-.buy-radio:checked + .buy-picture {
+ .buy-radio:checked + .buy-picture {
   background-color: var(--btn-bg-hover);
   border-color: var(--main-accent-color);
 }
+
+
 
 .buy-list-btn {
   padding: 6px 16px;
