@@ -73,13 +73,25 @@
   display: flex;
 }
 
+.footer-icon-point{
+  margin-right: 14px;
+}
+
+.footer-icon-point:last-child{
+  margin-right: 0;
+}
+
 .footer-icon-item {
   display: flex;
   width: 22px;
   height: 22px;
   fill: var(--white-color);
-  margin-left: 14px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-icon-item:hover,
+.footer-icon-item:focus{
+  fill: var(--main-accent-color);
 }
 
 .footer-icon-list:first-child {
@@ -154,7 +166,7 @@
   }
 
   .footer-menu::before {
-    width: 1136px;
+    width: 100%;
   }
 
   .footer-text {
