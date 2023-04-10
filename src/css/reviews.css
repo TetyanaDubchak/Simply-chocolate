@@ -96,14 +96,12 @@
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .container.slick-content {
-    max-width: 734px;
-    width: 100%;
+    width: 734px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container.slick-contant {
-    max-width: 100%;
     width: 100%;
   }
 
