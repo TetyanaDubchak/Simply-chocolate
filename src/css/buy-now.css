@@ -56,6 +56,7 @@
 .buy-close-btn-icon:hover,
 .buy-close-btn-icon:focus {
   fill: var(--main-accent-color);
+  transform: scale(1.1);
 }
 
 .buy-text {
