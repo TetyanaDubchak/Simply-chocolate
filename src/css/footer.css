@@ -73,11 +73,19 @@
   display: flex;
 }
 
+
+.footer-icon-point{
+  margin-right: 14px;
+}
+
+
+
 .footer-icon-point {
   margin-right: 14px;
 }
 
 .footer-icon-point:last-child {
+
   margin-right: 0;
 }
 
@@ -86,6 +94,7 @@
   width: 22px;
   height: 22px;
   fill: var(--white-color);
+
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -99,7 +108,10 @@
 .footer-icon-item:active {
   fill: var(--main-accent-color);
   transform: scale(1.1);
+
 }
+
+
 
 .footer-icon-list:first-child {
   margin-left: 0;
