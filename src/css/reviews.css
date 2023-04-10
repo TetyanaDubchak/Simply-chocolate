@@ -77,17 +77,22 @@
   margin-top: 32px;
   border: 1px solid var(--main-accent-color);
   color: var(--primary-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 30ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn.btn-review:hover,
 .btn.btn-review:focus {
-  border: none;
+  border-color: transparent;
   color: var(--white-color);
   background-color: var(--main-accent-color);
+  transform: scale(1.1);
 }
 
 .btn.btn-review:active {
-  border: none;
+  border-color: transparent;
   color: var(--white-color);
   background-color: var(--main-accent-color);
 }
