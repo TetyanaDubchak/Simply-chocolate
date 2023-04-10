@@ -107,6 +107,11 @@
   padding: 0px;
 }
 
+.buy-form-input:hover,
+.buy-form-input:focus{
+  border-color: var(--main-accent-color);
+}
+
 .buy-item {
   width: 100%;
   background-color: var(--white-color);
@@ -123,10 +128,12 @@
   width: 100%;
 }
 
-.buy-radio:checked + .buy-item {
+ .buy-radio:checked + .buy-picture {
   background-color: var(--btn-bg-hover);
   border-color: var(--main-accent-color);
 }
+
+
 
 .buy-list-btn {
   padding: 6px 16px;
@@ -153,6 +160,8 @@
   margin-bottom: 18px;
   width: 100%;
 }
+
+
 
 .buy-form-field:nth-child(odd) {
   margin-bottom: 14px;
@@ -230,7 +239,7 @@
   display: inline-block;
   position: absolute;
   top: -5px;
-  right: -8px;
+  right: -10px;
   width: 1px;
   height: 32px;
   background-color: #4040404d;
@@ -251,6 +260,12 @@
   letter-spacing: -0.02em;
   transition: border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
+  
+}
+
+.buy-message:hover,
+.buy-message:focus{
+  border-color: var(--main-accent-color);
 }
 
 .buy-submit-btn {
