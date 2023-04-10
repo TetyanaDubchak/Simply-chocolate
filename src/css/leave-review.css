@@ -82,24 +82,11 @@
 }
 
 .modal-leave-review-input:focus,
+.modal-leave-review-input:hover,
+.modal-leave-review-form-message:hover,
 .modal-leave-review-form-message:focus {
   outline: none;
   border-color: var(--main-accent-color);
-}
-
-/* ===== Remove background after autofill */
-.modal-leave-review-input:-webkit-autofill,
-.modal-leave-review-input:-webkit-autofill:hover,
-.modal-leave-review-input:-webkit-autofill:focus {
-  border: 1px solid var(--btn-bg-color);
-  -webkit-text-fill-color: var(--primary-color);
-  -webkit-box-shadow: 0 0 0px 1000px var(--secondary-text-color) inset;
-  transition: background-color 5000s ease-in-out 0s;
-}
-
-.modal-leave-review-input:focus {
-  outline: none;
-  border: 1px solid var(--btn-bg-color);
 }
 
 .modal-leave-review-input::placeholder {
@@ -108,9 +95,9 @@
   letter-spacing: 0.04em;
   color: rgba(64, 64, 64, 0.3);
 }
-/* ===== Remove background after autofill */
 
 .modal-leave-review-form-filed {
+  display: block;
   margin-bottom: 14px;
 }
 
@@ -119,7 +106,6 @@
   width: 100%;
   height: 137px;
   padding: 14px 18px;
-  margin-bottom: 18px;
 
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   border-radius: 13px;
@@ -130,6 +116,9 @@
   line-height: 1.22;
   letter-spacing: -0.02em;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-leave-review-form-filed-message {
+  margin-bottom: 18px;
 }
 
 .modal-leave-review-form-sumbit {
@@ -258,7 +247,6 @@
 
   .modal-leave-review-form-message {
     padding: 22px 24px;
-    margin-bottom: 18px;
 
     font-size: 18px;
     line-height: 1.22;
