@@ -229,6 +229,7 @@
   }
 
   .container-hero {
+    height: 890px;
     /* Для Chrome и Safari */
     background-image: -webkit-image-set(
         url('/img/tablet/hero/hero3x.avif') 3x,
@@ -325,6 +326,7 @@
   }
 
   .container-hero {
+    height: 600px;
     /* Для Chrome и Safari */
     background-image: -webkit-image-set(
         url('/img/desktop/hero/hero3x.avif') 3x,
