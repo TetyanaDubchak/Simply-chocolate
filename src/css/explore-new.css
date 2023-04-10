@@ -47,7 +47,7 @@
   padding: 32px 24px;
 }
 .explore-new-img {
-  max-width: 311px;
+  min-width: 311px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -141,7 +141,7 @@
     right: 18px;
   }
   .explore-new-img {
-    max-width: 538px;
+    min-width: 538px;
   }
 
   .explore-new_box {
