@@ -10,15 +10,13 @@
     <h2 class="buy-text"><span class="buy-span">BUY </span>NOW</h2>
 
 
-    <form action="">
-
+    <form >
       
-      
-
-
-
       <ul class="buy-list">
+        <label class="buy-list-input">
+        <input class="buy-radio visually-hidden" type="radio" name="weight" value="100g">
         <li class="buy-item">
+        
           <picture class="buy-picture">
             <source srcset="
               /img/desktop/order/100g1x.png 1x,
@@ -45,10 +43,14 @@
 
             <img class="buy-now-img" src="/img/tablet/order/100g1x.png" alt="chocolate nuts" width="120">
           </picture>
-          <input class="buy-radio-first visually-hidden" type="radio" name="weight" id="first" value="100g">
+          
           <button class="buy-list-btn first">100 g</button>
         </li>
-        <li class="buy-item second">
+      </label>
+
+      <label class="buy-list-input">
+      <input class="buy-radio visually-hidden" type="radio" name="weight" value="200g">
+        <li class="buy-item">
           <picture class="buy-picture">
             <source srcset="
               /img/desktop/order/200g1x.png 1x,
@@ -75,10 +77,13 @@
 
             <img class="buy-now-img" src="/img/tablet/order/200g1x.png" alt="chocolate-nuts" width="120">
           </picture>
-          <input class="buy-radio-second visually-hidden" type="radio" name="weight" value="200g">
+         
           <button class="buy-list-btn">200 g</button>
         </li>
-        <li class="buy-item third">
+      </label>
+      <label class="buy-list-input">
+        <input class="buy-radio visually-hidden" type="radio" name="weight"  value="300g">
+        <li class="buy-item">
           <picture class="buy-picture">
             <source srcset="
               /img/desktop/order/300g1x.png 1x,
@@ -103,11 +108,15 @@
               /img/tablet/order/300g3x.png 3x
             " media="(min-width: 320px)">
 
-            <img class="buy-now-img" src="/img/tablet/order/300g1x.png" alt="chocolate-nuts" width="120">
+            <img class="buy-now-img"
+             src="/img/tablet/order/300g1x.png"
+              alt="chocolate-nuts" 
+              width="120">
           </picture>
-          <input class="buy-radio-third visually-hidden" type="radio" name="weight" value="300g">
+      
           <button class="buy-list-btn">300 g</button>
         </li>
+      </label>
       </ul>
     </form>
 
