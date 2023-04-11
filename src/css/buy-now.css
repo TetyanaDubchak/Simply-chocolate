@@ -128,7 +128,7 @@
   width: 100%;
 }
 
- .buy-radio:checked + .buy-picture {
+ .buy-radio:checked + .buy-list-btn {
   background-color: var(--btn-bg-hover);
   border-color: var(--main-accent-color);
 }

@@ -12,52 +12,55 @@
     <form>
       <ul class="buy-list">
         <li class="buy-item">
+
+          <picture class="buy-picture">
+            <source
+              srcset="
+                /img/desktop/order/100g1x.png 1x,
+                /img/desktop/order/100g2x.png 2x,
+                /img/desktop/order/100g3x.png 3x
+              "
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcset="
+                /img/tablet/order/100g1x.png 1x,
+                /img/tablet/order/100g2x.png 2x,
+                /img/tablet/order/100g3x.png 3x
+              "
+              media="(min-width: 768px)"
+            />
+
+            <source
+              srcset="
+                /img/mobile/order/100g@1x.png 1x,
+                /img/mobile/order/100g@2x.png 2x,
+                /img/mobile/order/100g@3x.png 3x
+              "
+              media="(max-width: 767px)"
+            />
+
+            <img
+              class="buy-now-img"
+              src="/img/mobile/order/100g@1x.png"
+              alt="chocolate nuts"
+              width="120"
+              loading="lazy"
+            />
+          </picture>
+
           <label class="buy-list-input">
             <input
               class="buy-radio visually-hidden"
               type="radio"
               name="weight"
               value="100g"
-            />
+            >
 
-            <picture class="buy-picture">
-              <source
-                srcset="
-                  /img/desktop/order/100g1x.png 1x,
-                  /img/desktop/order/100g2x.png 2x,
-                  /img/desktop/order/100g3x.png 3x
-                "
-                media="(min-width: 1200px)"
-              />
-              <source
-                srcset="
-                  /img/tablet/order/100g1x.png 1x,
-                  /img/tablet/order/100g2x.png 2x,
-                  /img/tablet/order/100g3x.png 3x
-                "
-                media="(min-width: 768px)"
-              />
-
-              <source
-                srcset="
-                  /img/mobile/order/100g@1x.png 1x,
-                  /img/mobile/order/100g@2x.png 2x,
-                  /img/mobile/order/100g@3x.png 3x
-                "
-                media="(max-width: 767px)"
-              />
-
-              <img
-                class="buy-now-img"
-                src="/img/mobile/order/100g@1x.png"
-                alt="chocolate nuts"
-                width="120"
-                loading="lazy"
-              />
-            </picture>
+            <span type="button" class="buy-list-btn">100 g</span>
           </label>
 
-          <button class="buy-list-btn first">100 g</button>
+         
         </li>
 
         <li class="buy-item">
