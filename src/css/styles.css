@@ -18,13 +18,12 @@
 @import url('./footer.css');
 
 /* Modal Windows */
-
+@import url('./backdrop.css');
 @import url('./buy-now.css');
 @import url('./leave-review.css');
 @import url('./explore-new.css');
 @import url('./slick.css');
-
-@import url('./backdrop.css');
+@import url('./success-order-modal.css');
 
 @font-face {
   font-family: 'Montserrat';
