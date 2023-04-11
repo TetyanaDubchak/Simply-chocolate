@@ -1,1 +1,159 @@
 /* Success Modal - Order */
+
+.success-modal-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+
+  padding-top: 84px;
+  padding-left: 68px;
+  padding-right: 24px;
+
+  max-width: 311px;
+  min-height: 350px;
+
+  background-color: #fd9222;
+
+  /* Для Chrome и Safari */
+  background-image: -webkit-image-set(
+    url('/img/mobile/success-modal@3x.png') 3x,
+    url('/img/mobile/success-modal@2x.png') 2x,
+    url('/img/mobile/success-modal@1x.png') 1x
+  );
+
+  /* Для Firefox */
+  background-image: -webkit-image-set(
+    url('/img/mobile/success-modal@3x.png') 3x,
+    url('/img/mobile/success-modal@2x.png') 2x,
+    url('/img/mobile/success-modal@1x.png') 1x
+  );
+
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  border-radius: 15px;
+  transition: transform 450ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden .success-modal-wrap {
+  transform: translate(-50%, -50%) scale(1.1);
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.success-modal-close-btn {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #fcf1e0;
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.success-modal-icon {
+  display: flex;
+  fill: var(--modal-title-color);
+}
+
+.success-modal-close-btn:hover,
+.success-modal-close-btn:focus {
+  transform: scale(1.1);
+}
+
+.success-modal-close-btn:hover .success-modal-icon,
+.success-modal-close-btn:focus .success-modal-icon {
+  transform: scale(1.1);
+  fill: var(--main-accent-color);
+}
+
+.success-modal-title {
+  margin-bottom: 8px;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #fcf1e0;
+}
+
+.success-modal-text {
+  display: block;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+
+/*======Tablet style=========*/
+@media screen and (min-width: 768px) {
+  .success-modal-wrap {
+    padding-top: 154px;
+    padding-left: 163px;
+    padding-right: 44px;
+
+    max-width: 516px;
+    min-height: 414px;
+
+    background-color: #fd9222;
+
+    /* Для Chrome и Safari */
+    background-image: -webkit-image-set(
+      url('/img/tab-and-mob/success-modal@3x.png') 3x,
+      url('/img/tab-and-mob/success-modal@2x.png') 2x,
+      url('/img/tab-and-mob/success-modal@1x.png') 1x
+    );
+
+    /* Для Firefox */
+    background-image: -webkit-image-set(
+      url('/img/tab-and-mob/success-modal@3x.png') 3x,
+      url('/img/tab-and-mob/success-modal@2x.png') 2x,
+      url('/img/tab-and-mob/success-modal@1x.png') 1x
+    );
+    background-repeat: no-repeat;
+    background-position: left bottom;
+
+    border-radius: 15px;
+  }
+
+  .success-modal-close-btn {
+    top: 24px;
+    right: 24px;
+
+    width: 40px;
+    height: 40px;
+  }
+
+  .success-modal-icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  .success-modal-title {
+    font-size: 24px;
+    line-height: 1.17;
+  }
+
+  .success-modal-text {
+    display: block;
+
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
