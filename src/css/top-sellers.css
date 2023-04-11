@@ -3,6 +3,10 @@
   padding-bottom: 72px;
 }
 
+.top-sellers-img {
+  border-radius: 15px;
+}
+
 .top-sellers-title {
   margin-bottom: 32px;
 
@@ -134,7 +138,7 @@
     width: 368px;
   }
 
-  .top-sellets-item-info{
+  .top-sellets-item-info {
     width: 407px;
   }
 }
