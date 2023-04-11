@@ -19,6 +19,8 @@ modalOpenButtons.forEach(modalBtn => {
 });
 
 function modalOpen(currentModal) {
+  const form = currentModal.querySelector('form');
+
   currentModal.classList.remove('is-hidden');
   bodyLock();
   isModalOpen = true;
@@ -32,6 +34,26 @@ function modalOpen(currentModal) {
       document.removeEventListener('keydown', onEscOrClick);
       currentModal.removeEventListener('click', onEscOrClick);
     }
+  }
+
+  if (!form) {
+    return;
+  }
+
+  form.addEventListener('submit', onSubmit);
+
+  function onSubmit(e) {
+    e.preventDefault();
+    modalClose(currentModal);
+
+    const modalName = form.getAttribute('data-form');
+    if (modalName) {
+      const currentModal = document.querySelector(`[data-modal="${modalName}"]`);
+      modalOpen(currentModal);
+    }
+
+    e.target.reset();
+    form.removeEventListener('submit', onSubmit);
   }
 }
 
@@ -51,9 +73,7 @@ function bodyLock() {
   const bodyPaddingRight = body.style.paddingRight;
 
   body.style.overflow = 'hidden';
-  body.style.paddingRight = !bodyPaddingRight
-    ? scrollbarWidth
-    : bodyPaddingRight;
+  body.style.paddingRight = !bodyPaddingRight ? scrollbarWidth : bodyPaddingRight;
 }
 
 function bodyUnLock() {
