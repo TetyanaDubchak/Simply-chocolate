@@ -400,6 +400,9 @@
     max-width: 1166px;
   }
 
-  .buy-submit-btn {
+  @media screen and (min-height: 1123px) {
+    .buy-now-modal {
+      overflow-y: hidden;
+    }
   }
 }
