@@ -310,6 +310,58 @@ header {
 
 /*======Desktop style=========*/
 @media screen and (min-width: 1200px) {
+  /* ====== Animation ======== */
+
+  /* .header-menu {
+    opacity: 0;
+    animation: 1s ease-in-out nav;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
+  }
+
+  .header-menu-link {
+    transition: 0.2s ease-in-out;
+  }
+
+  @keyframes nav {
+    0% {
+      opacity: 0;
+      margin: 0 -200px;
+    }
+    50% {
+      opacity: 0.3;
+    }
+    75% {
+      margin: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  } */
+
+  .header-menu {
+    opacity: 0;
+    animation-name: text-up;
+    animation-duration: 0.8s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  .header-menu-link {
+    animation-delay: 1.2s;
+  }
+
+  @keyframes text-up {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 200%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  /* Animation */
   .header-mobile-wrap {
     display: none;
   }
