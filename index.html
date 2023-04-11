@@ -1292,7 +1292,13 @@ id="chocolate-is-loved"
           placeholder="Enter text"
         ></textarea>
       </label>
-      <button class="modal-leave-review-form-sumbit" type="submit">Send</button>
+      <button
+        class="modal-leave-review-form-sumbit"
+        type="submit"
+        data-open-modal="5"
+      >
+        Send
+      </button>
     </form>
   </div>
 </div>
@@ -1344,16 +1350,22 @@ id="chocolate-is-loved"
               placeholder="Enter your email"
             />
           </label>
+          <button
+            class="modal-explore-new-form-sumbit"
+            type="submit"
+            data-open-modal="6"
+          >
+            Submit
+          </button>
         </form>
-        <button class="modal-explore-new-form-sumbit" type="submit">
-          Submit
-        </button>
       </div>
     </div>
   </div>
 </div>
 
-      <div class="backdrop is-hidden" data-modal="4">
+      <!-- Buy-Now -->
+
+<div class="backdrop is-hidden" data-modal="4">
   <div class="success-modal-wrap">
     <button class="success-modal-close-btn" data-close-modal>
       <svg class="success-modal-icon" width="16" height="16">
@@ -1365,6 +1377,34 @@ id="chocolate-is-loved"
       We are glad that you ordered our chocolate and we are giving you a 20%
       discount on all our products.
     </p>
+  </div>
+</div>
+
+<!-- Feedback -->
+
+<div class="backdrop is-hidden" data-modal="5">
+  <div class="success-modal-wrap">
+    <button class="success-modal-close-btn" data-close-modal>
+      <svg class="success-modal-icon" width="16" height="16">
+        <use href="/Web4you/assets/sprite-ae60df5a.svg#icon-close-28"></use>
+      </svg>
+    </button>
+    <p class="success-modal-title">thank you for your feedback!</p>
+    <p class="success-modal-text">We are so happy to hear from you!</p>
+  </div>
+</div>
+
+<!-- Subscribe -->
+
+<div class="backdrop is-hidden" data-modal="6">
+  <div class="success-modal-wrap">
+    <button class="success-modal-close-btn" data-close-modal>
+      <svg class="success-modal-icon" width="16" height="16">
+        <use href="/Web4you/assets/sprite-ae60df5a.svg#icon-close-28"></use>
+      </svg>
+    </button>
+    <p class="success-modal-title">Thank you for your subscribe!</p>
+    <p class="success-modal-text">You will be hearing from us soon!</p>
   </div>
 </div>
 
