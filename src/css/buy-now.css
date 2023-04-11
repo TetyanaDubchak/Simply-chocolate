@@ -108,7 +108,7 @@
 }
 
 .buy-form-input:hover,
-.buy-form-input:focus{
+.buy-form-input:focus {
   border-color: var(--main-accent-color);
 }
 
@@ -125,31 +125,30 @@
 }
 
 .buy-list-input {
-  /* width: 100%; */
-  
+  width: 100%;
 }
 
- .buy-radio:checked + .buy-list-btn {
+.buy-radio:checked + .buy-list-btn {
   background-color: var(--btn-bg-hover);
   border-color: var(--main-accent-color);
 }
 
-
-
+/* cart btn */
 .buy-list-btn {
   padding: 6px 16px;
   background: #fafafa;
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 100px;
+  width: 70px;
+  height: 29px;
+  margin-right: auto;
+  margin-left: auto;
 
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
   color: var(--primary-color);
-  width: 70px;
-  height: 29px;
-  margin-right: auto;
-  margin-left: auto;
+  cursor: pointer;
 }
 
 .buy-form-descr {
@@ -165,8 +164,6 @@
   margin-bottom: 18px;
   width: 100%;
 }
-
-
 
 .buy-form-field:nth-child(odd) {
   margin-bottom: 14px;
@@ -265,11 +262,10 @@
   letter-spacing: -0.02em;
   transition: border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
-  
 }
 
 .buy-message:hover,
-.buy-message:focus{
+.buy-message:focus {
   border-color: var(--main-accent-color);
 }
 
