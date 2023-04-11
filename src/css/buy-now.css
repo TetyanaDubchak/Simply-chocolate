@@ -126,8 +126,7 @@
 
 .buy-list-input {
   /* width: 100%; */
-  margin-left: auto;
-  margin-right: auto;
+  
 }
 
  .buy-radio:checked + .buy-list-btn {
@@ -147,6 +146,10 @@
   font-size: 14px;
   line-height: 17px;
   color: var(--primary-color);
+  width: 70px;
+  height: 29px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .buy-form-descr {
@@ -355,10 +358,11 @@
   }
 
   .buy-list-btn {
-    display: block;
+    display: flex;
     margin-top: 14px;
-    margin-right: auto;
-    margin-left: auto;
+    /* margin-right: auto;
+    margin-left: auto; */
+    justify-content: center;
   }
 
   .buy-form-name {
