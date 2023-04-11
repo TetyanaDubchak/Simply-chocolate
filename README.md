@@ -59,7 +59,10 @@ Here's why:
 
 - Maksym Borovichenko
 - Nina Mateychuk
+- Oleg Voitenko
 - Stanislav Bobrivskyi
+- Viktoriia Kurnosova
+- Yaroslav Taran
 - Yuriy Beregovoy
 - Костя Зінченко
 - Тетяна Дубчак
