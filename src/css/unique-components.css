@@ -68,6 +68,10 @@
   text-transform: uppercase;
 }
 
+.uniqu-components-img {
+  margin: 0 auto;
+}
+
 /* overlay */
 
 .overlay {

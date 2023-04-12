@@ -11,7 +11,9 @@
   padding-right: 24px;
 
   max-width: 311px;
+  width: 100%;
   min-height: 350px;
+  background-size: 296px 236px;
 
   background-color: #fd9222;
 
@@ -38,6 +40,9 @@
   background-repeat: no-repeat;
   background-position: left bottom;
   border-radius: 15px;
+  box-shadow: 0px -1px 10px -4px rgba(0, 0, 0, 0.77);
+  -webkit-box-shadow: 0px -1px 10px -4px rgba(0, 0, 0, 0.77);
+  -moz-box-shadow: 0px -1px 10px -4px rgba(0, 0, 0, 0.77);
   transition: transform 450ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -122,8 +127,8 @@
     /* Для Chrome и Safari */
     background-image: -webkit-image-set(
       url('/img/tab-and-mob/success-modal@3x.webp') 3x,
-      url('/img/tab-and-mob/success-modal@3x.webp') 2x,
-      url('/img/tab-and-mob/success-modal@3x.webp') 1x,
+      url('/img/tab-and-mob/success-modal@2x.webp') 2x,
+      url('/img/tab-and-mob/success-modal@1x.webp') 1x,
       url('/img/tab-and-mob/success-modal@3x.png') 3x,
       url('/img/tab-and-mob/success-modal@2x.png') 2x,
       url('/img/tab-and-mob/success-modal@1x.png') 1x
@@ -132,8 +137,8 @@
     /* Для Firefox */
     background-image: -webkit-image-set(
       url('/img/tab-and-mob/success-modal@3x.webp') type('image/webp') 3x,
-      url('/img/tab-and-mob/success-modal@3x.webp') type('image/webp') 2x,
-      url('/img/tab-and-mob/success-modal@3x.webp') type('image/webp') 1x,
+      url('/img/tab-and-mob/success-modal@2x.webp') type('image/webp') 2x,
+      url('/img/tab-and-mob/success-modal@1x.webp') type('image/webp') 1x,
       url('/img/tab-and-mob/success-modal@3x.png') 3x,
       url('/img/tab-and-mob/success-modal@2x.png') 2x,
       url('/img/tab-and-mob/success-modal@1x.png') 1x
