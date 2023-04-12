@@ -65,3 +65,7 @@
   border-radius: 30px;
   background-color: var(--main-accent-color);
 }
+
+.slick-slide img {
+  margin: 0 auto;
+}
