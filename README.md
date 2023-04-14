@@ -65,7 +65,7 @@ Here's why:
 - Yaroslav Taran
 - Yuriy Beregovoy
 - Костя Зінченко
-- Тетяна Дубчак
+- Tetyana Dubchak
 - Анастасія Довгопола
 - Іван Рудка
 
